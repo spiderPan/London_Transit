@@ -1,6 +1,7 @@
 {
   "name": "london-transit",
   "version": "0.1.0",
+  "homepage": "/London_Transit",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cp ./data/keplergl.json ./src/ && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
